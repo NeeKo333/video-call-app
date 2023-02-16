@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
-
+import { v4 } from "uuid";
 const options = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
